@@ -1,0 +1,205 @@
+/*
+
+Host Cloud Template
+
+https://templatemo.com/tm-541-host-cloud
+
+*/
+
+body {
+	font-family: 'Roboto', sans-serif;
+	transition: all 0.5s;
+}
+p {
+	margin-bottom: 0px;
+	font-size: 14px;
+	color: #6a6a6a;
+	line-height: 25px;
+}
+a {
+	text-decoration: none!important;
+}
+
+.section-heading {
+	margin-bottom: 80px;
+}
+.section-heading span {
+	color: #00bcd4;
+	font-size: 15px;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	display: inline-block;
+	margin-top: 0px;
+}
+.section-heading h2 {
+	color: #1e1e1e;
+	font-size: 32px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.section-heading p {
+	font-size: 15px;
+}
+
+
+
+/* Footer Style */
+footer {
+	background-image: url(../images/footer-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	padding: 20px 0px 10px 0px;
+}
+footer .footer-heading h2 {
+	color: back;
+	font-size: 19px;
+	font-weight: 100;
+	letter-spacing: 0.5px;
+	margin-bottom: 30px;
+}
+footer p {
+	color: back;
+}
+footer ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+footer ul li {
+	margin-bottom: 10px;
+	font-size: 14px;
+	font-weight: 300;
+	color: back;
+	letter-spacing: 0.5px;
+}
+
+footer ul li a {
+	color: back;
+	font-size: 14px;
+	font-weight: 300;
+	transition: all 0.3s;
+}
+footer ul li a:hover {
+	color: back;
+	opacity: 0.75;
+}
+
+footer .sub-footer {
+	text-align: center;
+	margin-top: 80px;
+	border-top: 1px solid rgba(50,50,50,0.30);
+	padding-top: 60px;
+}
+
+footer .sub-footer a {
+	color: back;
+}
+
+/* About Us Page Style */
+.about-us {
+	padding: 140px 0px;
+	background-color: #f7f7f7;
+}
+.about-us .left-image {
+	margin-right: 30px;
+}
+.about-us .right-content {
+	margin-left: 30px;
+}
+.about-us .left-image img {
+	max-width: 100%;
+	overflow: hidden;
+}
+.about-us .section-heading h2 {
+	color: #1e1e1e;
+}
+.about-us .section-heading {
+	margin-bottom: 40px;
+	border-bottom: 3px solid #eee;
+	padding-bottom: 40px;
+}
+#tabs {
+  margin-right: 0px;
+}
+#tabs ul {
+  margin: 0;
+  padding: 0;
+}
+#tabs ul li {
+  margin-right: 40px;
+  display: inline-block;
+}
+#tabs ul li:last-child {
+  margin-right: 0px;
+}
+#tabs ul li a {
+  font-size: 18px;
+  color: #1e1e1e;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  transition: all 0.3s;
+}
+#tabs ul .ui-tabs-active span {
+  background: #faf5b2;
+  border: #faf5b2;
+  line-height: 90px;
+  border-bottom: none;
+}
+#tabs ul .ui-tabs-active a {
+  color: #00bcd4;
+}
+#tabs ul .ui-tabs-active span {
+  color: #1e1e1e;
+}
+.tabs-content {
+  text-align: left;
+  display: inline-block;
+  transition: all 0.3s;
+}
+.tabs-content p {
+  font-size: 14px;
+  color: #7a7a7a;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Home {background-color: red;}
+#News {background-color: green;}
+#Contact {background-color: blue;}
+#About {background-color: orange;}
